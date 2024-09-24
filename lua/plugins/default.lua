@@ -1,3 +1,5 @@
+if true then return {} end
+
 return {
   -- change some telescope options and a keymap to browse plugin files
   {
@@ -41,6 +43,10 @@ return {
         "terraform",
       },
     },
+    ignore_install = { "python" },
+  },
+  {
+    "neovim/nvim-lspconfig",
   },
 
   -- use mini.starter instead of alpha
