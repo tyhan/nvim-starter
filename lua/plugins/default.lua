@@ -38,6 +38,7 @@ return {
         "yaml",
         "rust",
         "kotlin",
+        "terraform",
       },
     },
   },
@@ -48,6 +49,7 @@ return {
   -- add jsonls and schemastore packages, and setup treesitter for json, json5 and jsonc
   { import = "lazyvim.plugins.extras.lang.json" },
   { import = "lazyvim.plugins.extras.lang.rust" },
+  { import = "lazyvim.plugins.extras.lang.terraform" },
 
   -- add any tools you want to have installed below
   {
