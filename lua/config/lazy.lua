@@ -19,6 +19,15 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim" },
     -- import/override with your plugins
+    { import = "plugins.extras.lang.docker" },
+    { import = "plugins.extras.lang.rust" },
+    { import = "plugins.extras.lang.kotlin" },
+    { import = "plugins.extras.lang.git" },
+    { import = "plugins.extras.lang.go" },
+    { import = "plugins.extras.lang.helm" },
+    { import = "plugins.extras.lang.toml" },
+    { import = "plugins.extras.lang.yaml" },
+    { import = "plugins.extras.dap.core" },
     { import = "plugins" },
   },
   defaults = {
