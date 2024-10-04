@@ -27,6 +27,7 @@ require("lazy").setup({
     { import = "plugins.extras.lang.helm" },
     { import = "plugins.extras.lang.toml" },
     { import = "plugins.extras.lang.yaml" },
+    { import = "plugins.extras.lang.terraform"},
     { import = "plugins.extras.dap.core" },
     { import = "plugins" },
   },
